@@ -1,6 +1,3 @@
-require_relative './customer.rb'
-require_relative './waiter.rb'
-
 class Meal
   
   attr_accessor :waiter, :customer, :total, :tip
